@@ -1,14 +1,14 @@
 html {
   font-family: Helvetica, sans-serif;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
 }
 
 body {
-  background-color: white;
+  background-color: transparent;
 }
 
-h1 {
+.header {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
@@ -47,8 +47,26 @@ ul {
   list-style-type: none;
 }
 
-.header .head_list {
-  background-image: url('/images/the-flatiron-building.png');
+.designed {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head_list {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer {
